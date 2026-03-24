@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 
@@ -13,9 +14,17 @@ export function SiteHeader() {
       <div className="flex w-full max-w-5xl items-center justify-between gap-2 rounded-full border border-black/[0.06] bg-white/95 px-3 py-3 shadow-[0_4px_24px_-4px_rgba(0,0,0,0.08)] backdrop-blur-sm sm:gap-4 sm:px-6 sm:py-3.5">
         <Link
           href="/"
-          className="font-display min-w-0 shrink text-sm font-bold tracking-tight text-text sm:text-base"
+          className="font-display flex min-w-0 shrink items-center gap-2.5 text-sm font-bold tracking-tight text-text sm:gap-3 sm:text-base"
         >
-          Dr. Desporte
+          <Image
+            src="/logo.png"
+            alt="Dr. Desporte"
+            width={40}
+            height={40}
+            className="h-8 w-8 shrink-0 rounded-lg object-contain sm:h-9 sm:w-9"
+            priority
+          />
+          <span className="truncate">Dr. Desporte</span>
         </Link>
         <nav className="flex flex-wrap items-center justify-end gap-1.5 sm:gap-2">
           <Link
