@@ -16,8 +16,8 @@ const syne = Syne({
 });
 
 export const metadata: Metadata = {
-  title: "Dr. Desporte",
-  description: "Programa de forma física — Dr. Desporte"
+  title: "Dr. Deporte",
+  description: "Programa de forma física — Dr. Deporte"
 };
 
 export default function RootLayout({

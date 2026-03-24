@@ -15,11 +15,11 @@ export function SiteHeader() {
         <Link
           href="/"
           className="relative z-[60] shrink-0 -translate-y-1 drop-shadow-[0_8px_24px_rgba(0,0,0,0.12)] transition hover:opacity-95 sm:-translate-y-2 lg:-translate-y-3"
-          aria-label="Dr. Desporte — inicio"
+          aria-label="Dr. Deporte — inicio"
         >
           <Image
             src="/logo.png"
-            alt="Dr. Desporte"
+            alt="Dr. Deporte"
             width={256}
             height={256}
             className="h-32 w-32 rounded-2xl object-contain sm:h-40 sm:w-40 md:h-48 md:w-48 lg:h-52 lg:w-52"
