@@ -145,7 +145,7 @@ export default function FreemiumPage() {
       />
       <SiteHeader />
 
-      <main className="relative pt-28 sm:pt-32">
+      <main className="relative pt-36 sm:pt-44 lg:pt-48">
         <section className="relative px-6 pb-16">
           <div
             className="pointer-events-none absolute inset-0 bg-mesh-hero opacity-70"
@@ -222,7 +222,7 @@ export default function FreemiumPage() {
 
         <section
           id="ejercicios"
-          className="scroll-mt-28 border-t border-text/6 bg-surface py-16 sm:py-20"
+          className="scroll-mt-40 border-t border-text/6 bg-surface py-16 sm:scroll-mt-44 sm:py-20"
         >
           <div className="mx-auto max-w-6xl px-6">
             <div className="flex flex-col gap-4 lg:flex-row lg:items-end lg:justify-between">
@@ -267,7 +267,7 @@ export default function FreemiumPage() {
 
         <section
           id="comidas"
-          className="scroll-mt-28 border-t border-text/6 py-16 sm:py-20"
+          className="scroll-mt-40 border-t border-text/6 py-16 sm:scroll-mt-44 sm:py-20"
         >
           <div className="mx-auto max-w-6xl px-6">
             <div className="flex flex-col gap-4 lg:flex-row lg:items-end lg:justify-between">

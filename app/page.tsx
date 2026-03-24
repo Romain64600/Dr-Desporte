@@ -13,7 +13,7 @@ export default function HomePage() {
       <SiteHeader />
 
       <main>
-        <section className="relative px-6 pb-24 pt-32 sm:pb-32 sm:pt-40">
+        <section className="relative px-6 pb-24 pt-40 sm:pb-32 sm:pt-48 lg:pt-52">
           <div
             className="pointer-events-none absolute inset-0 bg-mesh-hero"
             aria-hidden
@@ -54,7 +54,7 @@ export default function HomePage() {
 
               <div
                 id="video"
-                className="relative mx-auto mt-14 w-full max-w-4xl scroll-mt-32 sm:mt-16"
+                className="relative mx-auto mt-14 w-full max-w-4xl scroll-mt-44 sm:mt-16 sm:scroll-mt-48"
               >
                 <h2 className="font-display text-center text-base font-bold text-text sm:text-lg">
                   Vídeo de presentación
@@ -159,7 +159,7 @@ export default function HomePage() {
           </div>
         </section>
 
-        <section id="oferta" className="scroll-mt-28 py-24 sm:py-32">
+        <section id="oferta" className="scroll-mt-40 py-24 sm:scroll-mt-44 sm:py-32">
           <div className="mx-auto max-w-6xl px-6">
             <div className="text-center">
               <p className="text-xs font-bold uppercase tracking-[0.25em] text-muted">
@@ -229,7 +229,7 @@ export default function HomePage() {
 
         <section
           id="registro"
-          className="scroll-mt-28 border-t border-white/10 bg-ink py-24 text-white sm:py-32"
+          className="scroll-mt-40 border-t border-white/10 bg-ink py-24 text-white sm:scroll-mt-44 sm:py-32"
         >
           <div className="mx-auto max-w-6xl px-6">
             <div className="grid gap-14 lg:grid-cols-2 lg:items-center lg:gap-20">

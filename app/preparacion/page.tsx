@@ -55,7 +55,7 @@ export default function PreparacionPage() {
       />
       <SiteHeader />
 
-      <main className="relative pt-28 sm:pt-32">
+      <main className="relative pt-36 sm:pt-44 lg:pt-48">
         <section className="relative px-6 pb-12">
           <div
             className="pointer-events-none absolute inset-0 bg-mesh-hero opacity-50"
